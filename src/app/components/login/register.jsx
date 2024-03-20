@@ -133,7 +133,7 @@ const Register = ({ onClose, onLoginClick }) => {
               ) : null
             }
             error={
-              errors.confirmPassword && touched.confirmPassword // Check if confirmPassword has an error and if it has been touched
+              errors.confirmPassword && touched.confirmPassword 
             }
             style={{ marginBottom: "24px" }}
             InputProps={{
